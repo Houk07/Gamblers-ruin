@@ -7,10 +7,10 @@ units "start" at the start of the game. The game stops when his fortune reaches 
 reaches 0: the gambler is then "ruined". 
 
 ## What my code does  
-It plays a fixed "trials" amount of games (here 10 000) for each starting amount from 1 to N - 1 (here N = 20). It then 
-calculates the probability of ruin (the share of games that end with the gambler ruined). It then calculates the 
-probability of ruin for each of those values from a theoretical formula ( in "theory.py" file ). Finally, it puts all 
-the values in 2 lists and compares the probabilities for each starting amount. 
+It plays a fixed "trials" amount of games (here 10 000) for each starting amount from 1 to N - 1 (here N = 20). It 
+estimates the probability of ruin (the share of games that end with the gambler ruined). It then computes the 
+same probability from the theoretical formula ( in "theory.py" file ). Finally, it puts all the values in 2 lists and 
+compares the probabilities for each starting amount. 
 
 ## Results
 
